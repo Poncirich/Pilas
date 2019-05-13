@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Practico4
 {
-    class Program
+    class TestPila
     {
         static void Main(string[] args)
         {
-            //hola maurito, chupamela gaston
             Pila pi = new Pila(5);
             Pila pi1 = new Pila(5);
             Pila aux = new Pila(5);
 
+            //Creacion
             CD cd1 = new CD("pablito", "poncecito", 1000);
             pi.Push(cd1);
             CD cd2 = new CD("pablito2", "poncecito2", 1000);
@@ -25,7 +25,9 @@ namespace Practico4
             pi.Push(cd4);
             CD cd5 = new CD("pablito5", "poncecito5", 10050);
             pi.Push(cd5);
+            
 
+            //Pasar Discos
             for(int i = 0; i < 5; i++)
             {
                 aux.Push(pi.Pop());
@@ -35,36 +37,14 @@ namespace Practico4
                 pi1.Push(aux.Pop());
             }
 
+            //Listar
             for (int i = 0; i < 5; i++)
             {
                 pi1.Peek();
                 Console.WriteLine(pi1.Peek().Titulo);
                 pi1.Pop();
             }
-
-
-
-
-            while (!pi.isEmpty())
-            {
-                Console.WriteLine("El titulo es: " + pi.Pop().Titulo);
-            }
-
             Console.ReadKey();
         }
     }
 }
-
-
-//Manera de recorrer una pila con while
-
-// while(!p.isEmpty()){
-//Console.writeline("titulo" + p.pop().titulo);
-//}
-
-//Segunda manera
-//while(!p.isEmpty()&&(!Q.isFull()||!R.isFull()){
-//  if(p.peek().Duracion == 80){
-//     Q.push(p.pop());
-//  }else{R.push(p.pop());
-//Hola gian
