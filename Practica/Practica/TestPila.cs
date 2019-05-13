@@ -45,6 +45,8 @@ namespace Practico4
                 pi1.Pop();
             }
             Console.ReadKey();
+
+            //ponce puto
         }
     }
 }
