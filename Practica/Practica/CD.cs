@@ -21,7 +21,7 @@ namespace Practico4
             this.duracion = duracion;
         }
 
-        //G S
+        //G S 
         public string Interprete { get => interprete; set => interprete = value; }
 
         public int Duracion
