@@ -45,6 +45,21 @@ namespace Practico4
                 pi1.Pop();
             }
             Console.ReadKey();
+            //Hola
         }
     }
 }
+
+
+//Manera de recorrer una pila con while
+
+// while(!p.isEmpty()){
+//Console.writeline("titulo" + p.pop().titulo);
+//}
+
+//Segunda manera
+//while(!p.isEmpty()&&(!Q.isFull()||!R.isFull()){
+//  if(p.peek().Duracion == 80){
+//     Q.push(p.pop());
+//  }else{R.push(p.pop());
+//Hola giann
