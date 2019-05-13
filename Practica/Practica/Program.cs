@@ -10,6 +10,7 @@ namespace Practico4
     {
         static void Main(string[] args)
         {
+            //hola maurito
             Pila pi = new Pila(5);
             Pila pi1 = new Pila(5);
             Pila aux = new Pila(5);
