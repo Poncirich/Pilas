@@ -10,18 +10,19 @@ namespace Practico4
     {
         //Atributos
         protected int tope = -1;
-        protected CD[] listaDeDiscos;
+        protected Medios[] listaDeDiscos;
+         
 
 
         //Constructor
         public Pila(int tamaño)
         {
-            listaDeDiscos = new CD[tamaño];
+            listaDeDiscos = new Medios[tamaño];
         }       
         
         
         //Metodos
-        public void Push(CD z)
+        public void Push(Medios z)
         {
             if(tope < listaDeDiscos.Length)
             {
@@ -29,12 +30,12 @@ namespace Practico4
                 listaDeDiscos[tope] = z;
             }
         }
-        public CD Pop()
+        public Medios Pop()
         {
             tope--;
             return listaDeDiscos[tope + 1];
         }
-        public CD Peek()
+        public Medios Peek()
         {
             return listaDeDiscos[tope];
         }

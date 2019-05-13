@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practico4
 {
-    class CD
+    class Medios
     {
         //Atributos
         protected string titulo;
@@ -14,7 +14,7 @@ namespace Practico4
         protected int duracion;
 
         //Constructor
-        public CD(string titulo, string interprete, int duracion)
+        public Medios(string titulo, string interprete, int duracion)
         {
             this.titulo = titulo;
             this.interprete = interprete;
@@ -23,8 +23,7 @@ namespace Practico4
 
         //Get Set
         public string Interprete { get => interprete; set => interprete = value; }
-
-        //Metodos
+                
         public int Duracion
         {
             get

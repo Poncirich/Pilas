@@ -15,15 +15,15 @@ namespace Practico4
             Pila aux = new Pila(5);
 
             //Creacion
-            CD cd1 = new CD("pablito", "poncecito", 1000);
+            Medios cd1 = new Medios("pablito", "poncecito", 1000);
             pi.Push(cd1);
-            CD cd2 = new CD("pablito2", "poncecito2", 1000);
+            Medios cd2 = new Medios("pablito2", "poncecito2", 1000);
             pi.Push(cd2);
-            CD cd3 = new CD("pablito3", "poncecito3", 10003);
+            Medios cd3 = new Medios("pablito3", "poncecito3", 10003);
             pi.Push(cd3);
-            CD cd4 = new CD("pablito4", "poncecito4", 14000);
+            Medios cd4 = new Medios("pablito4", "poncecito4", 14000);
             pi.Push(cd4);
-            CD cd5 = new CD("pablito5", "poncecito5", 10050);
+            Medios cd5 = new Medios("pablito5", "poncecito5", 10050);
             pi.Push(cd5);
             
 
@@ -62,4 +62,4 @@ namespace Practico4
 //  if(p.peek().Duracion == 80){
 //     Q.push(p.pop());
 //  }else{R.push(p.pop());
-//Hola giann
+//Hola giannn
