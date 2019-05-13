@@ -9,7 +9,7 @@ namespace Practico4
     class Medios
     {
         //Atributos
-        protected string titulo;
+        private string titulo;
         private string interprete;
         protected int duracion;
 
@@ -22,6 +22,7 @@ namespace Practico4
         }
 
         //Get Set
+        private string Titulo1 { get => titulo; set => titulo = value; }
         public string Interprete { get => interprete; set => interprete = value; }
                 
         public int Duracion
@@ -46,5 +47,7 @@ namespace Practico4
                 titulo = value;
             }
         }
+
+        
     }
 }
