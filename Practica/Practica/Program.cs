@@ -67,4 +67,4 @@ namespace Practico4
 //  if(p.peek().Duracion == 80){
 //     Q.push(p.pop());
 //  }else{R.push(p.pop());
-//Hola gia
+//Hola giann
