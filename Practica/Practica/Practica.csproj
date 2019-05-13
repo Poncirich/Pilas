@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CD.cs" />
+    <Compile Include="Medio.cs" />
     <Compile Include="Pila.cs" />
     <Compile Include="TestPila.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
