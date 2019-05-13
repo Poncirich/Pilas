@@ -8,12 +8,12 @@ namespace Practico4
 {
     class CD
     {
-        //at
+        //Atributos
         protected string titulo;
         private string interprete;
         protected int duracion;
 
-        //con
+        //Constructor
         public CD(string titulo, string interprete, int duracion)
         {
             this.titulo = titulo;
@@ -21,9 +21,10 @@ namespace Practico4
             this.duracion = duracion;
         }
 
-        //G S 
+        //Get Set
         public string Interprete { get => interprete; set => interprete = value; }
 
+        //Metodos
         public int Duracion
         {
             get

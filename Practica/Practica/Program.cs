@@ -10,7 +10,7 @@ namespace Practico4
     {
         static void Main(string[] args)
         {
-            //hola maurito
+            //hola maurito, chupamela gaston
             Pila pi = new Pila(5);
             Pila pi1 = new Pila(5);
             Pila aux = new Pila(5);
@@ -41,6 +41,15 @@ namespace Practico4
                 Console.WriteLine(pi1.Peek().Titulo);
                 pi1.Pop();
             }
+
+
+
+
+            while (!pi.isEmpty())
+            {
+                Console.WriteLine("El titulo es: " + pi.Pop().Titulo);
+            }
+
             Console.ReadKey();
         }
     }
