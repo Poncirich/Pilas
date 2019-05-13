@@ -20,7 +20,7 @@ namespace Practico4
         }       
         
         
-        //metodos
+        //Metodos
         public void Push(CD z)
         {
             if(tope < listaDeDiscos.Length)
