@@ -13,7 +13,7 @@ namespace Practico4
         private string interprete;
         protected int duracion;
 
-        //Constructor
+        //Constructor1
         public Medio(string titulo, string interprete, int duracion)
         {
             this.titulo = titulo;
